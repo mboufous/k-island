@@ -1,0 +1,1923 @@
+{
+  "namespaces": [
+    {
+      "name": "integration",
+      "spec": {
+        "blocked": false,
+        "branch": "master",
+        "commit": "6a1442494aafae09544fba3e1f0d6e49eb4aed27",
+        "image_tag": "6a1442494aafae09544fba3e1f0d6e49eb4aed27",
+        "project": "hybris/shop",
+        "sha256": "8c044b8f757e213a4c46ba20c9850a2f3307d15acb6f72f572a5947f7bac269a"
+      },
+      "blocked": false,
+      "status": "Active"
+    },
+    {
+      "name": "production",
+      "spec": {
+        "blocked": false,
+        "branch": "master",
+        "commit": "6a1442494aafae09544fba3e1f0d6e49eb4aed27",
+        "image_tag": "6a1442494aafae09544fba3e1f0d6e49eb4aed27",
+        "project": "hybris/shop",
+        "sha256": "83b1ac6e4f4624a9b13efa3f52352744e1b44835e7886e9a251db45f13dd57a0"
+      },
+      "blocked": false,
+      "status": "Active"
+    },
+    {
+      "name": "review-ec-4014-pe-p29665",
+      "spec": {
+        "blocked": false,
+        "branch": "EC-4014/Personalization",
+        "commit": "79636e0e526cd54af2c8b06874c6d37bdfb63280",
+        "image_tag": "79636e0e526cd54af2c8b06874c6d37bdfb63280",
+        "project": "hybris/shop",
+        "sha256": "d56a867213a3347d00bdb54845cf65c1d54a2e3e2e19c0769f834526e781326d"
+      },
+      "blocked": false,
+      "status": "Active"
+    },
+    {
+      "name": "review-ec-5043-sa-gol0qw",
+      "spec": {
+        "blocked": false,
+        "branch": "EC-5043/sales_email_fallback",
+        "commit": "4fb4f7053560267dabef13c6d1c5665b686dd1c8",
+        "image_tag": "4fb4f7053560267dabef13c6d1c5665b686dd1c8",
+        "project": "hybris/shop",
+        "sha256": "c86adc770f6c982dda83e67dd0d73fb3ad63daff8f185b33c0bae998fd849c0b"
+      },
+      "blocked": false,
+      "status": "Active"
+    },
+    {
+      "name": "review-ec-5052-ch-ixdpo7",
+      "spec": {
+        "blocked": false,
+        "branch": "EC-5052/checkout_order_notifications",
+        "commit": "dcb6ef6a104e4752c4c200893888c6f7a891ce39",
+        "image_tag": "dcb6ef6a104e4752c4c200893888c6f7a891ce39",
+        "project": "hybris/shop",
+        "sha256": "dd976063c52385a6c8da52ce6d189c22901dd6a1ebaed81a76f38fedb3072a14"
+      },
+      "blocked": false,
+      "status": "Active"
+    },
+    {
+      "name": "review-ec-5060-km-qwmybj",
+      "spec": {
+        "blocked": false,
+        "branch": "EC-5060/kmcHubSpotIntegration",
+        "commit": "4bc74ed3ce40bf4b240ab8ffd55ed9f78c06b122",
+        "image_tag": "4bc74ed3ce40bf4b240ab8ffd55ed9f78c06b122",
+        "project": "hybris/shop",
+        "sha256": "11c54aa87b324d33963d359cd646801ea0e7aa3db8819e142871ce1b73cb73a7"
+      },
+      "blocked": false,
+      "status": "Pending Modify"
+    },
+    {
+      "name": "review-ec-5098-oc-6yvxg9",
+      "spec": {
+        "blocked": false,
+        "branch": "EC-5098/oci_mapping_difference_new_item_unit",
+        "commit": "c83082223dc6497b6cf54c5128f05e694af8e494",
+        "image_tag": "c83082223dc6497b6cf54c5128f05e694af8e494",
+        "project": "hybris/shop",
+        "sha256": "f3b6e6c35ddf4711c8e850932340ffa597aeecbdb8146cbe67f22e30f1bf2638"
+      },
+      "blocked": false,
+      "status": "Active"
+    },
+    {
+      "name": "review-ec-5221-va-et1j7x",
+      "spec": {
+        "blocked": false,
+        "branch": "EC-5221/validation-exceptions-remove",
+        "commit": "7b916c9e96384f97494a02222a506dd56b80e8e3",
+        "image_tag": "7b916c9e96384f97494a02222a506dd56b80e8e3",
+        "project": "hybris/shop",
+        "sha256": "6e1aeb5ec099ae46725bc6c2476a6c2739aff07f1acfc59bc85a3e2148590935"
+      },
+      "blocked": false,
+      "status": "Active"
+    },
+    {
+      "name": "review-ec-5232-sa-briy7g",
+      "spec": {
+        "blocked": false,
+        "branch": "EC-5232-sample-data-footer-spartacus",
+        "commit": "7d29efae18e4d3a45ead9edc19e6c81a5e4c56cd",
+        "image_tag": "7d29efae18e4d3a45ead9edc19e6c81a5e4c56cd",
+        "project": "hybris/shop",
+        "sha256": "45c23c7cc3ad620cfe89f71b3f89e2552806f4a053e38f69c398724d3d41eefd"
+      },
+      "blocked": false,
+      "status": "Pending Modify"
+    },
+    {
+      "name": "review-ec-5276-sp-rql0kb",
+      "spec": {
+        "blocked": false,
+        "branch": "EC-5276/spartacus-homepage-main-branch",
+        "commit": "8a5008f2fce8c7aa2104a8007c60f7591f85b59f",
+        "image_tag": "8a5008f2fce8c7aa2104a8007c60f7591f85b59f",
+        "project": "hybris/shop",
+        "sha256": "bd5fdb126cf99a359800b3100821e97b105a7b99e7218ea8c52252bdb6a63757"
+      },
+      "blocked": false,
+      "status": "Active"
+    },
+    {
+      "name": "review-ec-5332-ca-twsc0f",
+      "spec": {
+        "blocked": false,
+        "branch": "EC-5332/cart_pdf_fix_missing_foiling",
+        "commit": "f3cf32f74f6033feb6d135c77cfa45bbce99a5c3",
+        "image_tag": "f3cf32f74f6033feb6d135c77cfa45bbce99a5c3",
+        "project": "hybris/shop",
+        "sha256": "7cd282e2abe7010b32b0b8938d414eed8de5c40c3bc01cc22860911e600a2d78"
+      },
+      "blocked": false,
+      "status": "Active"
+    },
+    {
+      "name": "review-ec-5383-re-szzktr",
+      "spec": {
+        "blocked": false,
+        "branch": "EC-5383/reduce_kmc_review_products",
+        "commit": "9a55f8307ff3d143900869f719f6d68aee7f33d9",
+        "image_tag": "9a55f8307ff3d143900869f719f6d68aee7f33d9",
+        "project": "hybris/shop",
+        "sha256": "bd8a51946a11dc2abfd3edaa58c26e01d95fbdd76d76983ab9cb9f2a6b11521f"
+      },
+      "blocked": false,
+      "status": "Active"
+    },
+    {
+      "name": "review-ec-5384-ad-1aix8k",
+      "spec": {
+        "blocked": false,
+        "branch": "EC-5384/adjust_implementation_oci_additional_cost_export_logic",
+        "commit": "4427ce1b3707d3dfae1d31ea7ae421ad90be076d",
+        "image_tag": "4427ce1b3707d3dfae1d31ea7ae421ad90be076d",
+        "project": "hybris/shop",
+        "sha256": "5d34d90e0ac5785b7db87da9ba2dd9e806d5c1c1742b969a8f2f5bb87a2bdaed"
+      },
+      "blocked": false,
+      "status": "Active"
+    },
+    {
+      "name": "review-ec-5415-ga-bp13lz",
+      "spec": {
+        "blocked": false,
+        "branch": "EC-5415/gap9_part_1_customers_who_cannot_see_a_price_can_buy_products_and_remove_pricing_from_buyability_determination",
+        "commit": "1e2843ac1735812fac3d3833e96c0a95db39e742",
+        "image_tag": "1e2843ac1735812fac3d3833e96c0a95db39e742",
+        "project": "hybris/shop",
+        "sha256": "661aa8bab0bb669d62fb690e217085c0f28891c77bc169b621ccfc44cabeef34"
+      },
+      "blocked": false,
+      "status": "Active"
+    },
+    {
+      "name": "review-ec-5418-22-wic9jd",
+      "spec": {
+        "blocked": false,
+        "branch": "EC-5418/22.05.12",
+        "commit": "9997a524cfd63b0a2e6205b4c073a5d37f324750",
+        "image_tag": "9997a524cfd63b0a2e6205b4c073a5d37f324750",
+        "project": "hybris/shop",
+        "sha256": "678f75f10062a33a6f2f4c0bf83973599ec158cdb98cfe240d1d17cb8440a5b4"
+      },
+      "blocked": false,
+      "status": "Active"
+    },
+    {
+      "name": "review-kmc-ec-528-gr6onj",
+      "spec": {
+        "blocked": false,
+        "branch": "EC-5287/make-cms-components-editable-in-smartedit",
+        "commit": "a5e662b66107c150d042f9cfcd8247c18ee982e5",
+        "image_tag": "a5e662b66107c150d042f9cfcd8247c18ee982e5",
+        "project": "hybris/storefront",
+        "sha256": "2b3af1ba9c7b9bc3fb0c207be7ae5af769202dbc6f9c6db1b5afb8f73f419a45"
+      },
+      "blocked": false,
+      "status": "Active"
+    },
+    {
+      "name": "review-metal-4087-3ua1ns",
+      "spec": {
+        "blocked": false,
+        "branch": "METAL-4087/avoid_initialization_to_run_in_prod",
+        "commit": "b582836c03a9a2b3037fab9b8009c22423ec9650",
+        "image_tag": "b582836c03a9a2b3037fab9b8009c22423ec9650",
+        "project": "hybris/shop",
+        "sha256": "56ccd33951b16fb3d46ab3d7bb85b5f45c838ffb54a08841b5214ebc8ed3d299"
+      },
+      "blocked": false,
+      "status": "Active"
+    },
+    {
+      "name": "review-metal-4090-t750cb",
+      "spec": {
+        "blocked": false,
+        "branch": "METAL-4090/pipeline_fix",
+        "commit": "4f77a9a839c9cb49c9fa0acc2ccffbbe9d97615c",
+        "image_tag": "4f77a9a839c9cb49c9fa0acc2ccffbbe9d97615c",
+        "project": "hybris/shop",
+        "sha256": "995cf129a7b04d303b201fc3c557d4ed797f805ce3aa1c41b495cecce4807f61"
+      },
+      "blocked": false,
+      "status": "Pending Modify"
+    }
+  ],
+  "namespace": [
+    {
+      "id": "review-ec-4014-pe-p29665",
+      "env_info": {
+        "status": {
+          "general": true,
+          "lastCheckTimestamp": "2023-05-18T19:42:21Z",
+          "lastUpdateTimestamp": "2023-05-17T09:34:02Z",
+          "phase": "Active",
+          "resources": [
+            {
+              "name": "castlemock",
+              "replica_status": {
+                "available_replicas": 1,
+                "ready_replicas": 1,
+                "replicas": 1,
+                "updated_replicas": 1
+              },
+              "status": true
+            },
+            {
+              "name": "documents-service",
+              "replica_status": {
+                "available_replicas": 1,
+                "ready_replicas": 1,
+                "replicas": 1,
+                "updated_replicas": 1
+              },
+              "status": true
+            },
+            {
+              "name": "hybris-cluster-status",
+              "replica_status": {
+                "available_replicas": 1,
+                "ready_replicas": 1,
+                "replicas": 1,
+                "updated_replicas": 1
+              },
+              "status": true
+            },
+            {
+              "name": "hybris-initializer",
+              "replica_status": {
+                "available_replicas": 1,
+                "ready_replicas": 1,
+                "replicas": 1,
+                "updated_replicas": 1
+              },
+              "status": true
+            },
+            {
+              "name": "hybris-s3proxy",
+              "replica_status": {
+                "available_replicas": 1,
+                "ready_replicas": 1,
+                "replicas": 1,
+                "updated_replicas": 1
+              },
+              "status": true
+            },
+            {
+              "name": "hybris-spartacus",
+              "replica_status": {
+                "available_replicas": 2,
+                "ready_replicas": 2,
+                "replicas": 2,
+                "updated_replicas": 2
+              },
+              "status": true
+            },
+            {
+              "name": "steel2-etl",
+              "replica_status": {
+                "available_replicas": 1,
+                "ready_replicas": 1,
+                "replicas": 1,
+                "updated_replicas": 1
+              },
+              "status": true
+            },
+            {
+              "name": "steel2-etl-ftp-server-file-browser",
+              "replica_status": {
+                "available_replicas": 1,
+                "ready_replicas": 1,
+                "replicas": 1,
+                "updated_replicas": 1
+              },
+              "status": true
+            },
+            {
+              "name": "hybris-backoffice",
+              "replica_status": {
+                "current_replicas": 1,
+                "ready_replicas": 1,
+                "replicas": 1,
+                "updated_replicas": 1
+              },
+              "status": true
+            },
+            {
+              "name": "hybris-cache",
+              "replica_status": {
+                "current_replicas": 2,
+                "ready_replicas": 2,
+                "replicas": 2,
+                "updated_replicas": 2
+              },
+              "status": true
+            },
+            {
+              "name": "hybris-storefront",
+              "replica_status": {
+                "current_replicas": 1,
+                "ready_replicas": 1,
+                "replicas": 1,
+                "updated_replicas": 1
+              },
+              "status": true
+            },
+            {
+              "name": "solr-master",
+              "replica_status": {
+                "current_replicas": 1,
+                "ready_replicas": 1,
+                "replicas": 1,
+                "updated_replicas": 1
+              },
+              "status": true
+            },
+            {
+              "name": "solr-slave",
+              "replica_status": {
+                "current_replicas": 1,
+                "ready_replicas": 1,
+                "replicas": 1,
+                "updated_replicas": 1
+              },
+              "status": true
+            }
+          ],
+          "warnings": {
+            "pod": {
+              "message": [
+                {
+                  "firstTimestamp": "2023-05-18T05:39:19+00:00",
+                  "lastTimestamp": "2023-05-18T19:41:24+00:00",
+                  "message": "Readiness probe failed: Get \"http://10.32.82.4:9001/rest/v2/healthcheck\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+                  "pod_name": "hybris-storefront-0",
+                  "reason": "Unhealthy"
+                }
+              ]
+            }
+          }
+        },
+        "spec": {
+          "blocked": false,
+          "branch": "EC-4014/Personalization",
+          "commit": "79636e0e526cd54af2c8b06874c6d37bdfb63280",
+          "image_tag": "79636e0e526cd54af2c8b06874c6d37bdfb63280",
+          "project": "hybris/shop",
+          "sha256": "d56a867213a3347d00bdb54845cf65c1d54a2e3e2e19c0769f834526e781326d"
+        }
+      },
+      "ingresses": {
+        "castlemock": {
+          "rules": [
+            {
+              "host": "castlemock-review-ec-4014-pe-p29665.kwsus.kci.rocks",
+              "http": {
+                "paths": [
+                  {
+                    "backend": {
+                      "resource": null,
+                      "service": {
+                        "name": "castlemock",
+                        "port": { "name": null, "number": 80 }
+                      }
+                    },
+                    "path": "/castlemock",
+                    "path_type": "ImplementationSpecific"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "documents-service-swagger-kci": {
+          "rules": [
+            {
+              "host": "documents-service-swagger-review-ec-4014-pe-p29665.kwsus.kci.rocks",
+              "http": {
+                "paths": [
+                  {
+                    "backend": {
+                      "resource": null,
+                      "service": {
+                        "name": "documents-service",
+                        "port": { "name": "http", "number": null }
+                      }
+                    },
+                    "path": "/swagger",
+                    "path_type": "ImplementationSpecific"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "hybris-backoffice-0-authenticated": {
+          "rules": [
+            {
+              "host": "hybris-backoffice-0-review-ec-4014-pe-p29665.kwsus.kci.rocks",
+              "http": {
+                "paths": [
+                  {
+                    "backend": {
+                      "resource": null,
+                      "service": {
+                        "name": "hybris-backoffice-0",
+                        "port": { "name": null, "number": 9001 }
+                      }
+                    },
+                    "path": "/hac",
+                    "path_type": "ImplementationSpecific"
+                  },
+                  {
+                    "backend": {
+                      "resource": null,
+                      "service": {
+                        "name": "hybris-backoffice-0",
+                        "port": { "name": null, "number": 9001 }
+                      }
+                    },
+                    "path": "/backoffice",
+                    "path_type": "ImplementationSpecific"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "hybris-backoffice-authenticated": {
+          "rules": [
+            {
+              "host": "hybris-review-ec-4014-pe-p29665.kwsus.kci.rocks",
+              "http": {
+                "paths": [
+                  {
+                    "backend": {
+                      "resource": null,
+                      "service": {
+                        "name": "hybris-backoffice",
+                        "port": { "name": null, "number": 9001 }
+                      }
+                    },
+                    "path": "/backoffice($|/.*$|[?].*$)",
+                    "path_type": "ImplementationSpecific"
+                  },
+                  {
+                    "backend": {
+                      "resource": null,
+                      "service": {
+                        "name": "hybris-backoffice",
+                        "port": { "name": null, "number": 9001 }
+                      }
+                    },
+                    "path": "/hac",
+                    "path_type": "ImplementationSpecific"
+                  },
+                  {
+                    "backend": {
+                      "resource": null,
+                      "service": {
+                        "name": "hybris-backoffice",
+                        "port": { "name": null, "number": 9001 }
+                      }
+                    },
+                    "path": "/productcockpit($|/.*$|[?].*$)",
+                    "path_type": "ImplementationSpecific"
+                  },
+                  {
+                    "backend": {
+                      "resource": null,
+                      "service": {
+                        "name": "hybris-backoffice",
+                        "port": { "name": null, "number": 9001 }
+                      }
+                    },
+                    "path": "/smartedit($|/.*$|[?].*$)",
+                    "path_type": "ImplementationSpecific"
+                  },
+                  {
+                    "backend": {
+                      "resource": null,
+                      "service": {
+                        "name": "hybris-backoffice",
+                        "port": { "name": null, "number": 9001 }
+                      }
+                    },
+                    "path": "/(authorizationserver|cmssmartedit|favicon.ico|img.favIcon|smarteditwebservices)($|/.*$|[?].*$)",
+                    "path_type": "ImplementationSpecific"
+                  },
+                  {
+                    "backend": {
+                      "resource": null,
+                      "service": {
+                        "name": "hybris-backoffice",
+                        "port": { "name": null, "number": 9001 }
+                      }
+                    },
+                    "path": "/kloecknerxltsupport($|/.*$|[?].*$)",
+                    "path_type": "ImplementationSpecific"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "hybris-backoffice-noauth": {
+          "rules": [
+            {
+              "host": "hybris-review-ec-4014-pe-p29665.kwsus.kci.rocks",
+              "http": {
+                "paths": [
+                  {
+                    "backend": {
+                      "resource": null,
+                      "service": {
+                        "name": "hybris-backoffice",
+                        "port": { "name": null, "number": 9001 }
+                      }
+                    },
+                    "path": "/(authorizationserver/oauth/token|cmssmartedit/cmssmartedit/js|personalizationpromotionssmartedit/personalizationpromotionssmartedit/js|personalizationsmartedit/personalizationsmartedit/js|merchandisingsmartedit/merchandisingsmartedit/js|)($|/.*$|[?].*$)",
+                    "path_type": "ImplementationSpecific"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "hybris-backoffice-unauthenticated": {
+          "rules": [
+            {
+              "host": "hybris-review-ec-4014-pe-p29665.kwsus.kci.rocks",
+              "http": {
+                "paths": [
+                  {
+                    "backend": {
+                      "resource": null,
+                      "service": {
+                        "name": "hybris-backoffice",
+                        "port": { "name": null, "number": 9001 }
+                      }
+                    },
+                    "path": "/(authorizationserver/oauth/whoami|cmssmarteditwebservices/v1|cmswebservices/v1|permissionswebservices/v1|previewwebservices/v1|smartedit/configuration|smartedit/settings|smartedit/static-resources|smarteditwebservices/v1/i18n)($|/.*$|[?].*$)",
+                    "path_type": "ImplementationSpecific"
+                  },
+                  {
+                    "backend": {
+                      "resource": null,
+                      "service": {
+                        "name": "hybris-backoffice",
+                        "port": { "name": null, "number": 9001 }
+                      }
+                    },
+                    "path": "/rest/v2/([^/]+/)?orders/upload($|/.*$|[?].*$)",
+                    "path_type": "ImplementationSpecific"
+                  },
+                  {
+                    "backend": {
+                      "resource": null,
+                      "service": {
+                        "name": "hybris-backoffice",
+                        "port": { "name": null, "number": 9001 }
+                      }
+                    },
+                    "path": "/orderimport/upload($|/.*$|[?].*$)",
+                    "path_type": "ImplementationSpecific"
+                  },
+                  {
+                    "backend": {
+                      "resource": null,
+                      "service": {
+                        "name": "hybris-backoffice",
+                        "port": { "name": null, "number": 9001 }
+                      }
+                    },
+                    "path": "/rest/v2/kloeckner-us/quotes/upload($|/.*$|[?].*$)",
+                    "path_type": "ImplementationSpecific"
+                  },
+                  {
+                    "backend": {
+                      "resource": null,
+                      "service": {
+                        "name": "hybris-backoffice",
+                        "port": { "name": null, "number": 9001 }
+                      }
+                    },
+                    "path": "/odata2webservices($|/.*$|[?].*$)",
+                    "path_type": "ImplementationSpecific"
+                  },
+                  {
+                    "backend": {
+                      "resource": null,
+                      "service": {
+                        "name": "hybris-backoffice",
+                        "port": { "name": null, "number": 9001 }
+                      }
+                    },
+                    "path": "/occ/v2($|/.*$|[?].*$)",
+                    "path_type": "ImplementationSpecific"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "hybris-solr": {
+          "rules": [
+            {
+              "host": "solr-review-ec-4014-pe-p29665.kwsus.kci.rocks",
+              "http": {
+                "paths": [
+                  {
+                    "backend": {
+                      "resource": null,
+                      "service": {
+                        "name": "solr-master",
+                        "port": { "name": null, "number": 8983 }
+                      }
+                    },
+                    "path": "/master/(.*)",
+                    "path_type": "ImplementationSpecific"
+                  },
+                  {
+                    "backend": {
+                      "resource": null,
+                      "service": {
+                        "name": "solr-slave",
+                        "port": { "name": null, "number": 8983 }
+                      }
+                    },
+                    "path": "/slave/(.*)",
+                    "path_type": "ImplementationSpecific"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "hybris-spartacus": {
+          "rules": [
+            {
+              "host": "shop-us-review-ec-4014-pe-p29665.kwsus.kci.rocks",
+              "http": {
+                "paths": [
+                  {
+                    "backend": {
+                      "resource": null,
+                      "service": {
+                        "name": "hybris-spartacus",
+                        "port": { "name": null, "number": 80 }
+                      }
+                    },
+                    "path": "/v2/",
+                    "path_type": "ImplementationSpecific"
+                  },
+                  {
+                    "backend": {
+                      "resource": null,
+                      "service": {
+                        "name": "hybris-spartacus",
+                        "port": { "name": null, "number": 80 }
+                      }
+                    },
+                    "path": "/(([^/]+)(\\.css|\\.js))|(manifest.webmanifest)|(assets/.*)|(favicon.ico)",
+                    "path_type": "ImplementationSpecific"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "hybris-storefront": {
+          "rules": [
+            {
+              "host": "shop-us-review-ec-4014-pe-p29665.kwsus.kci.rocks",
+              "http": {
+                "paths": [
+                  {
+                    "backend": {
+                      "resource": null,
+                      "service": {
+                        "name": "hybris-cache",
+                        "port": { "name": null, "number": 80 }
+                      }
+                    },
+                    "path": "/",
+                    "path_type": "ImplementationSpecific"
+                  },
+                  {
+                    "backend": {
+                      "resource": null,
+                      "service": {
+                        "name": "hybris-backoffice",
+                        "port": { "name": null, "number": 9001 }
+                      }
+                    },
+                    "path": "/mediaReferenceUpload",
+                    "path_type": "ImplementationSpecific"
+                  },
+                  {
+                    "backend": {
+                      "resource": null,
+                      "service": {
+                        "name": "hybris-cache",
+                        "port": { "name": null, "number": 80 }
+                      }
+                    },
+                    "path": "/kloecknerxltsupport",
+                    "path_type": "ImplementationSpecific"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "hybris-storefront-0-authenticated": {
+          "rules": [
+            {
+              "host": "hybris-storefront-0-review-ec-4014-pe-p29665.kwsus.kci.rocks",
+              "http": {
+                "paths": [
+                  {
+                    "backend": {
+                      "resource": null,
+                      "service": {
+                        "name": "hybris-storefront-0",
+                        "port": { "name": null, "number": 9001 }
+                      }
+                    },
+                    "path": "/hac",
+                    "path_type": "ImplementationSpecific"
+                  },
+                  {
+                    "backend": {
+                      "resource": null,
+                      "service": {
+                        "name": "hybris-storefront-0",
+                        "port": { "name": null, "number": 9001 }
+                      }
+                    },
+                    "path": "/backoffice",
+                    "path_type": "ImplementationSpecific"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "hybris-storefront-blocked-paths": {
+          "rules": [
+            {
+              "host": "shop-us-review-ec-4014-pe-p29665.kwsus.kci.rocks",
+              "http": {
+                "paths": [
+                  {
+                    "backend": {
+                      "resource": null,
+                      "service": {
+                        "name": "hybris-cache",
+                        "port": { "name": null, "number": 80 }
+                      }
+                    },
+                    "path": "/(acceleratorservices|backoffice|cmssmartedit|cmssmarteditwebservices|cmswebservices|dashboard|datahubadapter|embeddedserver|groovynature|hac|kloecknersapmappingwebservices|maintenance|mediaconversion|odata2webservices|orderimport|permissionswebservices|previewwebservices|processing|productcockpit|reportcockpit|rest|sapcustomerb2b|smarteditwebservices|tomcatembeddedserver|virtualjdbc)($|/.*$|[?].*$)",
+                    "path_type": "ImplementationSpecific"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "hybris-storefront-unauthenticated": {
+          "rules": [
+            {
+              "host": "shop-us-review-ec-4014-pe-p29665.kwsus.kci.rocks",
+              "http": {
+                "paths": [
+                  {
+                    "backend": {
+                      "resource": null,
+                      "service": {
+                        "name": "hybris-cache",
+                        "port": { "name": null, "number": 80 }
+                      }
+                    },
+                    "path": "/(authorizationserver|occ/v2|smartedit/settings|assistedservicewebservices)($|/.*$|[?].*$)",
+                    "path_type": "ImplementationSpecific"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "solr-slave-0": {
+          "rules": [
+            {
+              "host": "solr-slave-0-review-ec-4014-pe-p29665.kwsus.kci.rocks",
+              "http": {
+                "paths": [
+                  {
+                    "backend": {
+                      "resource": null,
+                      "service": {
+                        "name": "solr-slave-0",
+                        "port": { "name": null, "number": 8983 }
+                      }
+                    },
+                    "path": "/",
+                    "path_type": "ImplementationSpecific"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "steel2-etl-files-ingress-kci": {
+          "rules": [
+            {
+              "host": "steel2-etl-files-review-ec-4014-pe-p29665.kwsus.kci.rocks",
+              "http": {
+                "paths": [
+                  {
+                    "backend": {
+                      "resource": null,
+                      "service": {
+                        "name": "steel2-etl-nginx-filebrowser",
+                        "port": { "name": null, "number": 80 }
+                      }
+                    },
+                    "path": "/",
+                    "path_type": "ImplementationSpecific"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "kwsus-kibana-review-kibana": {
+          "rules": [
+            {
+              "host": "kib-review.kwsus.kci.rocks",
+              "http": {
+                "paths": [
+                  {
+                    "backend": {
+                      "resource": null,
+                      "service": {
+                        "name": "kwsus-kibana-review-kibana",
+                        "port": { "name": null, "number": 5601 }
+                      }
+                    },
+                    "path": "/",
+                    "path_type": "ImplementationSpecific"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "databases": {
+        "hybris-webshop": {
+          "instance": "kwsus-review-percona-op",
+          "deletionProtected": false,
+          "status": { "phase": "Ready", "status": true }
+        }
+      },
+      "pods": {
+        "castlemock-547cf7bc44-bpz5n": {
+          "namespace": "review-ec-4014-pe-p29665",
+          "phase": "Running",
+          "containers": {
+            "castlemock": {
+              "image": "castlemock/castlemock:v1.63",
+              "env": null
+            },
+            "castlemock-importer": {
+              "image": "registry.kci.rocks/hybris/castle-mockserver/castlemock-importer:422abc2e05283f3781dfbf3bae37044ea2c05021",
+              "env": [
+                {
+                  "name": "IMPORT_FINISHED_PATH",
+                  "value": "/",
+                  "value_from": null
+                },
+                {
+                  "name": "IMPORT_FINISHED_FILE",
+                  "value": "import_complete",
+                  "value_from": null
+                },
+                {
+                  "name": "SLEEP_INFINITE",
+                  "value": "true",
+                  "value_from": null
+                }
+              ]
+            }
+          },
+          "kibana_url": "kib-review.k8stest.kci.rocks"
+        },
+        "documents-service-5899cd58c5-jrm9b": {
+          "namespace": "review-ec-4014-pe-p29665",
+          "phase": "Running",
+          "containers": {
+            "documents-service": {
+              "image": "registry.kci.rocks/documents/service:08a06cd1a7a5f5e1c9798a87985d76b8c9a70a0b",
+              "env": [
+                {
+                  "name": "NAMESPACE",
+                  "value": null,
+                  "value_from": {
+                    "config_map_key_ref": null,
+                    "field_ref": {
+                      "api_version": "v1",
+                      "field_path": "metadata.namespace"
+                    },
+                    "resource_field_ref": null,
+                    "secret_key_ref": null
+                  }
+                },
+                { "name": "MIX_ENV", "value": "prod", "value_from": null },
+                { "name": "PORT", "value": "4000", "value_from": null },
+                { "name": "HOST", "value": "127.0.0.1", "value_from": null },
+                {
+                  "name": "SECRET_KEY_BASE_FILE",
+                  "value": "/run/secrets/documents-service/secret_key_base",
+                  "value_from": null
+                },
+                {
+                  "name": "ERLANG_COOKIE_FILE",
+                  "value": "/run/secrets/documents-service/erlang_cookie",
+                  "value_from": null
+                },
+                {
+                  "name": "GOOGLE_APPLICATION_CREDENTIALS",
+                  "value": "/run/secrets/google-cloud-secret/credentials.json",
+                  "value_from": null
+                },
+                {
+                  "name": "GCS_BUCKET_ID",
+                  "value": "kwsus-documents-service-review",
+                  "value_from": null
+                },
+                {
+                  "name": "KMC_API_USERNAME_FILE",
+                  "value": "/run/secrets/documents-service/kmc_api_username",
+                  "value_from": null
+                },
+                {
+                  "name": "KMC_API_PASSWORD_FILE",
+                  "value": "/run/secrets/documents-service/kmc_api_password",
+                  "value_from": null
+                },
+                {
+                  "name": "SENTRY_DSN",
+                  "value": null,
+                  "value_from": {
+                    "config_map_key_ref": {
+                      "key": "dsn",
+                      "name": "documents-service-sentry-dsn",
+                      "optional": true
+                    },
+                    "field_ref": null,
+                    "resource_field_ref": null,
+                    "secret_key_ref": null
+                  }
+                }
+              ]
+            }
+          },
+          "kibana_url": "kib-review.k8stest.kci.rocks"
+        },
+        "hybris-backoffice-0": {
+          "namespace": "review-ec-4014-pe-p29665",
+          "phase": "Running",
+          "containers": {
+            "hybris": {
+              "image": "registry.kci.rocks/hybris/shop/hybris:79636e0e526cd54af2c8b06874c6d37bdfb63280",
+              "env": [
+                {
+                  "name": "MYSQL_HOST",
+                  "value": null,
+                  "value_from": {
+                    "config_map_key_ref": {
+                      "key": "DB_CONN",
+                      "name": "hybris-mysql-secret",
+                      "optional": null
+                    },
+                    "field_ref": null,
+                    "resource_field_ref": null,
+                    "secret_key_ref": null
+                  }
+                },
+                {
+                  "name": "INITIALIZER_URL",
+                  "value": "http://hybris-initializer",
+                  "value_from": null
+                },
+                {
+                  "name": "REPLACER_CONFIG_FILE",
+                  "value": "/run/secrets/replacer/replacer.yaml",
+                  "value_from": null
+                },
+                {
+                  "name": "REPLACER_PATH_LIST_CONFIG",
+                  "value": "/run/secrets/replacer/patch_pathlist.yaml",
+                  "value_from": null
+                },
+                {
+                  "name": "TASK_ENGINE_ENABLED",
+                  "value": "false",
+                  "value_from": null
+                },
+                {
+                  "name": "TRIGGER_TASK_ENGINE_AFTER_STARTUP",
+                  "value": "true",
+                  "value_from": null
+                },
+                {
+                  "name": "BACKOFFICE_SOLR_SEARCH_INDEX_AUTOINIT",
+                  "value": "true",
+                  "value_from": null
+                },
+                {
+                  "name": "VARNISH_ENABLED",
+                  "value": "true",
+                  "value_from": null
+                },
+                { "name": "DEBUG_MODE", "value": "true", "value_from": null },
+                {
+                  "name": "STOREFRONT_SHOW_ERROR_STACKTRACE",
+                  "value": "true",
+                  "value_from": null
+                },
+                {
+                  "name": "SENTRY_DSN",
+                  "value": null,
+                  "value_from": {
+                    "config_map_key_ref": {
+                      "key": "dsn",
+                      "name": "webshop-sentry-dsn",
+                      "optional": true
+                    },
+                    "field_ref": null,
+                    "resource_field_ref": null,
+                    "secret_key_ref": null
+                  }
+                },
+                {
+                  "name": "SENTRY_ENVIRONMENT",
+                  "value": "review-ec-4014-pe-p29665-kwsus",
+                  "value_from": null
+                },
+                {
+                  "name": "KUBE_NAMESPACE",
+                  "value": "review-ec-4014-pe-p29665",
+                  "value_from": null
+                },
+                {
+                  "name": "SYSTEM_NODE_TYPE",
+                  "value": "backoffice",
+                  "value_from": null
+                },
+                {
+                  "name": "EHCACHE_BOOTSTRAP_POD_NAME_PREFIX",
+                  "value": "hybris-backoffice-",
+                  "value_from": null
+                }
+              ]
+            },
+            "archive-sync": {
+              "image": "registry.kci.rocks/devops/gcs2localfs:latest",
+              "env": [
+                {
+                  "name": "GCS_BUCKET_NAME",
+                  "value": "archiving_deactivate_for_review",
+                  "value_from": null
+                },
+                {
+                  "name": "GCS_BUCKET_FOLDER",
+                  "value": "hybris/",
+                  "value_from": null
+                },
+                {
+                  "name": "LOCAL_SYNC_DIR",
+                  "value": "/opt/ftp",
+                  "value_from": null
+                },
+                {
+                  "name": "CREDENTIAL_FILE",
+                  "value": "/run/secrets/hybris-general-bucket-cred/credentials.json",
+                  "value_from": null
+                }
+              ]
+            },
+            "product-image-fetcher": {
+              "image": "registry.kci.rocks/devops/gcs2localfs:latest",
+              "env": [
+                {
+                  "name": "GCS_BUCKET_NAME",
+                  "value": "hybris-kwsus-data-import-review",
+                  "value_from": null
+                },
+                {
+                  "name": "LOCAL_SYNC_DIR",
+                  "value": "/media/product-images",
+                  "value_from": null
+                },
+                {
+                  "name": "CREDENTIAL_FILE",
+                  "value": "/run/secrets/hybris-general-bucket-cred/credentials.json",
+                  "value_from": null
+                }
+              ]
+            },
+            "prometheus-exporter": {
+              "image": "registry.kci.rocks/hybris/hybris-shop-prometheus-exporter:latest",
+              "env": [
+                {
+                  "name": "JMX_PROMETHEUS_EXPORTER_CONFIG_FILE",
+                  "value": "/run/secrets/exporter/config.yaml",
+                  "value_from": null
+                }
+              ]
+            },
+            "fluentd-sidecar": {
+              "image": "registry.kci.rocks/infrastructure/sidecar-fluentd:1edf13fe93562df8a6b9470e90922142cc01b9fe",
+              "env": [
+                {
+                  "name": "LOG_PATH",
+                  "value": "/data/logs/",
+                  "value_from": null
+                },
+                {
+                  "name": "OUTPUT_HOST",
+                  "value": "kwsus-elasticsearch-master.review-general",
+                  "value_from": null
+                },
+                { "name": "OUTPUT_PORT", "value": "9200", "value_from": null },
+                {
+                  "name": "KUBE_NAMESPACE",
+                  "value": "review-ec-4014-pe-p29665",
+                  "value_from": null
+                }
+              ]
+            }
+          },
+          "kibana_url": "kib-review.k8stest.kci.rocks"
+        },
+        "hybris-cache-0": {
+          "namespace": "review-ec-4014-pe-p29665",
+          "phase": "Running",
+          "containers": {
+            "cache": {
+              "image": "registry.kci.rocks/hybris/http-cache-monitored:latest",
+              "env": [
+                {
+                  "name": "NAMESPACE",
+                  "value": null,
+                  "value_from": {
+                    "config_map_key_ref": null,
+                    "field_ref": {
+                      "api_version": "v1",
+                      "field_path": "metadata.namespace"
+                    },
+                    "resource_field_ref": null,
+                    "secret_key_ref": null
+                  }
+                },
+                { "name": "CACHE_SIZE", "value": "512M", "value_from": null }
+              ]
+            }
+          },
+          "kibana_url": "kib-review.k8stest.kci.rocks"
+        },
+        "hybris-cache-1": {
+          "namespace": "review-ec-4014-pe-p29665",
+          "phase": "Running",
+          "containers": {
+            "cache": {
+              "image": "registry.kci.rocks/hybris/http-cache-monitored:latest",
+              "env": [
+                {
+                  "name": "NAMESPACE",
+                  "value": null,
+                  "value_from": {
+                    "config_map_key_ref": null,
+                    "field_ref": {
+                      "api_version": "v1",
+                      "field_path": "metadata.namespace"
+                    },
+                    "resource_field_ref": null,
+                    "secret_key_ref": null
+                  }
+                },
+                { "name": "CACHE_SIZE", "value": "512M", "value_from": null }
+              ]
+            }
+          },
+          "kibana_url": "kib-review.k8stest.kci.rocks"
+        },
+        "hybris-cluster-status-7575b744f5-6bzrk": {
+          "namespace": "review-ec-4014-pe-p29665",
+          "phase": "Running",
+          "containers": {
+            "status-checker": {
+              "image": "registry.kci.rocks/hybris/hybris-shop-cluster-status:573ca526826d57a25b7b3173be35a0059b60be63",
+              "env": null
+            }
+          },
+          "kibana_url": "kib-review.k8stest.kci.rocks"
+        },
+        "hybris-initializer-5d4957d5c5-8mnh8": {
+          "namespace": "review-ec-4014-pe-p29665",
+          "phase": "Running",
+          "containers": {
+            "hybris": {
+              "image": "registry.kci.rocks/hybris/shop/hybris:79636e0e526cd54af2c8b06874c6d37bdfb63280",
+              "env": [
+                {
+                  "name": "MYSQL_HOST",
+                  "value": null,
+                  "value_from": {
+                    "config_map_key_ref": {
+                      "key": "DB_CONN",
+                      "name": "hybris-mysql-secret",
+                      "optional": null
+                    },
+                    "field_ref": null,
+                    "resource_field_ref": null,
+                    "secret_key_ref": null
+                  }
+                },
+                {
+                  "name": "MYSQL_PORT",
+                  "value": null,
+                  "value_from": {
+                    "config_map_key_ref": {
+                      "key": "DB_PORT",
+                      "name": "hybris-mysql-secret",
+                      "optional": null
+                    },
+                    "field_ref": null,
+                    "resource_field_ref": null,
+                    "secret_key_ref": null
+                  }
+                },
+                {
+                  "name": "MYSQL_DATABASE",
+                  "value": null,
+                  "value_from": {
+                    "config_map_key_ref": null,
+                    "field_ref": null,
+                    "resource_field_ref": null,
+                    "secret_key_ref": {
+                      "key": "DB",
+                      "name": "hybris-mysql-secret",
+                      "optional": null
+                    }
+                  }
+                },
+                {
+                  "name": "MYSQL_USER",
+                  "value": null,
+                  "value_from": {
+                    "config_map_key_ref": null,
+                    "field_ref": null,
+                    "resource_field_ref": null,
+                    "secret_key_ref": {
+                      "key": "USER",
+                      "name": "hybris-mysql-secret",
+                      "optional": null
+                    }
+                  }
+                },
+                {
+                  "name": "MYSQL_PASSWORD_FILE",
+                  "value": "/run/secrets/mysql/PASSWORD",
+                  "value_from": null
+                },
+                {
+                  "name": "S3_MEDIA_BUCKET_NAME",
+                  "value": null,
+                  "value_from": {
+                    "config_map_key_ref": null,
+                    "field_ref": null,
+                    "resource_field_ref": null,
+                    "secret_key_ref": {
+                      "key": "S3_MEDIA_BUCKET_NAME",
+                      "name": "hybris-media-bucket-cred",
+                      "optional": null
+                    }
+                  }
+                },
+                {
+                  "name": "S3_MEDIA_ENDPOINT",
+                  "value": "http://hybris-webshop-s3proxy",
+                  "value_from": null
+                },
+                {
+                  "name": "S3_MEDIA_IDENTITY_FILE",
+                  "value": "/run/secrets/s3-media-secret/S3_MEDIA_IDENTITY",
+                  "value_from": null
+                },
+                {
+                  "name": "S3_MEDIA_CREDENTIAL_FILE",
+                  "value": "/run/secrets/s3-media-secret/S3_MEDIA_CREDENTIAL",
+                  "value_from": null
+                },
+                {
+                  "name": "SOLR_MASTER_URL",
+                  "value": "http://solr-master:8983",
+                  "value_from": null
+                },
+                {
+                  "name": "HYBRIS_INIT_BASIC_AUTH_FILE",
+                  "value": "/run/secrets/hybris-secrets/hybris_init_file_basic_auth",
+                  "value_from": null
+                },
+                {
+                  "name": "HYBRIS_INIT_ENV",
+                  "value": "kmc",
+                  "value_from": null
+                },
+                { "name": "ENV", "value": "review", "value_from": null },
+                { "name": "LANG", "value": "en_US.UTF-8", "value_from": null },
+                {
+                  "name": "REPLACER_CONFIG_FILE",
+                  "value": "/run/secrets/replacer/replacer.yaml",
+                  "value_from": null
+                },
+                {
+                  "name": "REPLACER_PATH_LIST_CONFIG",
+                  "value": "/run/secrets/replacer/patch_pathlist.yaml",
+                  "value_from": null
+                },
+                {
+                  "name": "TASK_ENGINE_ENABLED",
+                  "value": "false",
+                  "value_from": null
+                },
+                {
+                  "name": "TRIGGER_TASK_ENGINE_AFTER_STARTUP",
+                  "value": "false",
+                  "value_from": null
+                },
+                {
+                  "name": "BACKOFFICE_SOLR_SEARCH_INDEX_AUTOINIT",
+                  "value": "false",
+                  "value_from": null
+                },
+                {
+                  "name": "VARNISH_ENABLED",
+                  "value": "false",
+                  "value_from": null
+                },
+                {
+                  "name": "STOREFRONT_SHOW_ERROR_STACKTRACE",
+                  "value": "true",
+                  "value_from": null
+                },
+                {
+                  "name": "SENTRY_DSN",
+                  "value": null,
+                  "value_from": {
+                    "config_map_key_ref": {
+                      "key": "dsn",
+                      "name": "webshop-sentry-dsn",
+                      "optional": true
+                    },
+                    "field_ref": null,
+                    "resource_field_ref": null,
+                    "secret_key_ref": null
+                  }
+                },
+                {
+                  "name": "SENTRY_ENVIRONMENT",
+                  "value": "review-ec-4014-pe-p29665-kwsus",
+                  "value_from": null
+                },
+                {
+                  "name": "KUBE_NAMESPACE",
+                  "value": "review-ec-4014-pe-p29665",
+                  "value_from": null
+                },
+                {
+                  "name": "SYSTEM_NODE_TYPE",
+                  "value": "initializer",
+                  "value_from": null
+                },
+                {
+                  "name": "EHCACHE_BOOTSTRAP_POD_NAME_PREFIX",
+                  "value": "hybris-backoffice-",
+                  "value_from": null
+                }
+              ]
+            },
+            "healthcheck": {
+              "image": "registry.kci.rocks/hybris/shop/hybris:79636e0e526cd54af2c8b06874c6d37bdfb63280",
+              "env": null
+            }
+          },
+          "kibana_url": "kib-review.k8stest.kci.rocks"
+        },
+        "hybris-s3proxy-5d848dc778-6nb7k": {
+          "namespace": "review-ec-4014-pe-p29665",
+          "phase": "Running",
+          "containers": {
+            "s3proxy": {
+              "image": "andrewgaul/s3proxy:travis-1474",
+              "env": [
+                {
+                  "name": "BUCKET_NAME",
+                  "value": null,
+                  "value_from": {
+                    "config_map_key_ref": null,
+                    "field_ref": null,
+                    "resource_field_ref": null,
+                    "secret_key_ref": {
+                      "key": "S3_MEDIA_BUCKET_NAME",
+                      "name": "hybris-media-bucket-cred",
+                      "optional": null
+                    }
+                  }
+                },
+                {
+                  "name": "S3PROXY_IDENTITY",
+                  "value": null,
+                  "value_from": {
+                    "config_map_key_ref": null,
+                    "field_ref": null,
+                    "resource_field_ref": null,
+                    "secret_key_ref": {
+                      "key": "S3_MEDIA_IDENTITY",
+                      "name": "hybris-media-bucket-cred",
+                      "optional": null
+                    }
+                  }
+                },
+                {
+                  "name": "S3PROXY_CREDENTIAL",
+                  "value": null,
+                  "value_from": {
+                    "config_map_key_ref": null,
+                    "field_ref": null,
+                    "resource_field_ref": null,
+                    "secret_key_ref": {
+                      "key": "S3_MEDIA_CREDENTIAL",
+                      "name": "hybris-media-bucket-cred",
+                      "optional": null
+                    }
+                  }
+                },
+                {
+                  "name": "S3PROXY_AUTHORIZATION",
+                  "value": "none",
+                  "value_from": null
+                },
+                {
+                  "name": "JCLOUDS_PROVIDER",
+                  "value": "filesystem",
+                  "value_from": null
+                },
+                {
+                  "name": "S3PROXY_VIRTUAL_HOST",
+                  "value": "hybris-webshop-s3proxy",
+                  "value_from": null
+                }
+              ]
+            }
+          },
+          "kibana_url": "kib-review.k8stest.kci.rocks"
+        },
+        "hybris-spartacus-7b7d5b678c-ns56r": {
+          "namespace": "review-ec-4014-pe-p29665",
+          "phase": "Running",
+          "containers": {
+            "frontend": {
+              "image": "registry.kci.rocks/hybris/storefront:77d37aede521bc83fc5e6af57c48d991d5973ffd",
+              "env": [
+                { "name": "GTM_ID", "value": "GTM-TLMVWW", "value_from": null },
+                {
+                  "name": "SMARTEDIT_ALLOWED_ORIGINS",
+                  "value": "*.kwsus.kci.rocks:443",
+                  "value_from": null
+                },
+                {
+                  "name": "SMARTEDIT_DIRECT_IMPORT_ENABLED",
+                  "value": "true",
+                  "value_from": null
+                }
+              ]
+            }
+          },
+          "kibana_url": "kib-review.k8stest.kci.rocks"
+        },
+        "hybris-spartacus-7b7d5b678c-nx26x": {
+          "namespace": "review-ec-4014-pe-p29665",
+          "phase": "Running",
+          "containers": {
+            "frontend": {
+              "image": "registry.kci.rocks/hybris/storefront:77d37aede521bc83fc5e6af57c48d991d5973ffd",
+              "env": [
+                { "name": "GTM_ID", "value": "GTM-TLMVWW", "value_from": null },
+                {
+                  "name": "SMARTEDIT_ALLOWED_ORIGINS",
+                  "value": "*.kwsus.kci.rocks:443",
+                  "value_from": null
+                },
+                {
+                  "name": "SMARTEDIT_DIRECT_IMPORT_ENABLED",
+                  "value": "true",
+                  "value_from": null
+                }
+              ]
+            }
+          },
+          "kibana_url": "kib-review.k8stest.kci.rocks"
+        },
+        "hybris-storefront-0": {
+          "namespace": "review-ec-4014-pe-p29665",
+          "phase": "Running",
+          "containers": {
+            "hybris": {
+              "image": "registry.kci.rocks/hybris/shop/hybris:79636e0e526cd54af2c8b06874c6d37bdfb63280",
+              "env": [
+                {
+                  "name": "MYSQL_HOST",
+                  "value": null,
+                  "value_from": {
+                    "config_map_key_ref": {
+                      "key": "DB_CONN",
+                      "name": "hybris-mysql-secret",
+                      "optional": null
+                    },
+                    "field_ref": null,
+                    "resource_field_ref": null,
+                    "secret_key_ref": null
+                  }
+                },
+                {
+                  "name": "INITIALIZER_URL",
+                  "value": "http://hybris-initializer",
+                  "value_from": null
+                },
+                {
+                  "name": "REPLACER_CONFIG_FILE",
+                  "value": "/run/secrets/replacer/replacer.yaml",
+                  "value_from": null
+                },
+                {
+                  "name": "REPLACER_PATH_LIST_CONFIG",
+                  "value": "/run/secrets/replacer/patch_pathlist.yaml",
+                  "value_from": null
+                },
+                {
+                  "name": "TASK_ENGINE_ENABLED",
+                  "value": "false",
+                  "value_from": null
+                },
+                {
+                  "name": "TRIGGER_TASK_ENGINE_AFTER_STARTUP",
+                  "value": "false",
+                  "value_from": null
+                },
+                {
+                  "name": "BACKOFFICE_SOLR_SEARCH_INDEX_AUTOINIT",
+                  "value": "false",
+                  "value_from": null
+                },
+                {
+                  "name": "VARNISH_ENABLED",
+                  "value": "true",
+                  "value_from": null
+                },
+                { "name": "DEBUG_MODE", "value": "true", "value_from": null },
+                {
+                  "name": "STOREFRONT_SHOW_ERROR_STACKTRACE",
+                  "value": "true",
+                  "value_from": null
+                },
+                {
+                  "name": "SENTRY_DSN",
+                  "value": null,
+                  "value_from": {
+                    "config_map_key_ref": {
+                      "key": "dsn",
+                      "name": "webshop-sentry-dsn",
+                      "optional": true
+                    },
+                    "field_ref": null,
+                    "resource_field_ref": null,
+                    "secret_key_ref": null
+                  }
+                },
+                {
+                  "name": "SENTRY_ENVIRONMENT",
+                  "value": "review-ec-4014-pe-p29665-kwsus",
+                  "value_from": null
+                },
+                {
+                  "name": "KUBE_NAMESPACE",
+                  "value": "review-ec-4014-pe-p29665",
+                  "value_from": null
+                },
+                {
+                  "name": "SYSTEM_NODE_TYPE",
+                  "value": "storefront",
+                  "value_from": null
+                },
+                {
+                  "name": "EHCACHE_BOOTSTRAP_POD_NAME_PREFIX",
+                  "value": "hybris-storefront-",
+                  "value_from": null
+                },
+                {
+                  "name": "IMAGE_TAG",
+                  "value": "79636e0e526cd54af2c8b06874c6d37bdfb63280",
+                  "value_from": null
+                },
+                {
+                  "name": "NEW_RELIC_APP_NAME",
+                  "value": "kwsus-review-ec-4014-pe-p29665-storefront",
+                  "value_from": null
+                }
+              ]
+            },
+            "spider": {
+              "image": "registry.kci.rocks/hybris/spider:latest",
+              "env": [
+                {
+                  "name": "SPIDER_CONFIG",
+                  "value": "/run/secrets/hybris-spider-config/config.yaml",
+                  "value_from": null
+                },
+                {
+                  "name": "SENTRY_ENVIRONMENT",
+                  "value": "review-ec-4014-pe-p29665-kwsus",
+                  "value_from": null
+                },
+                {
+                  "name": "SENTRY_DSN",
+                  "value": null,
+                  "value_from": {
+                    "config_map_key_ref": {
+                      "key": "dsn",
+                      "name": "spider-sentry-dsn",
+                      "optional": true
+                    },
+                    "field_ref": null,
+                    "resource_field_ref": null,
+                    "secret_key_ref": null
+                  }
+                },
+                {
+                  "name": "CRAWLER_FINISHED_PATH",
+                  "value": "/spider",
+                  "value_from": null
+                },
+                {
+                  "name": "CRAWLER_FINISHED_FILE",
+                  "value": "crawler_finished",
+                  "value_from": null
+                }
+              ]
+            },
+            "prometheus-exporter": {
+              "image": "registry.kci.rocks/hybris/hybris-shop-prometheus-exporter:latest",
+              "env": [
+                {
+                  "name": "JMX_PROMETHEUS_EXPORTER_CONFIG_FILE",
+                  "value": "/run/secrets/exporter/config.yaml",
+                  "value_from": null
+                }
+              ]
+            },
+            "fluentd-sidecar": {
+              "image": "registry.kci.rocks/infrastructure/sidecar-fluentd:1edf13fe93562df8a6b9470e90922142cc01b9fe",
+              "env": [
+                {
+                  "name": "LOG_PATH",
+                  "value": "/data/logs/",
+                  "value_from": null
+                },
+                {
+                  "name": "OUTPUT_HOST",
+                  "value": "kwsus-elasticsearch-master.review-general",
+                  "value_from": null
+                },
+                { "name": "OUTPUT_PORT", "value": "9200", "value_from": null },
+                {
+                  "name": "KUBE_NAMESPACE",
+                  "value": "review-ec-4014-pe-p29665",
+                  "value_from": null
+                }
+              ]
+            }
+          },
+          "kibana_url": "kib-review.k8stest.kci.rocks"
+        },
+        "solr-master-0": {
+          "namespace": "review-ec-4014-pe-p29665",
+          "phase": "Running",
+          "containers": {
+            "solr": {
+              "image": "registry.kci.rocks/hybris/solr/solr-2205:5a1693ea8c8d746e6093f30cd1b7a9e92bb452a4",
+              "env": [
+                { "name": "SOLR_ROLE", "value": "master", "value_from": null }
+              ]
+            },
+            "solr-prometheus-exporter": {
+              "image": "registry.kci.rocks/hybris/solr/solr-2205:5a1693ea8c8d746e6093f30cd1b7a9e92bb452a4",
+              "env": null
+            }
+          },
+          "kibana_url": "kib-review.k8stest.kci.rocks"
+        },
+        "solr-slave-0": {
+          "namespace": "review-ec-4014-pe-p29665",
+          "phase": "Running",
+          "containers": {
+            "solr": {
+              "image": "registry.kci.rocks/hybris/solr/solr-2205:5a1693ea8c8d746e6093f30cd1b7a9e92bb452a4",
+              "env": [
+                { "name": "SOLR_ROLE", "value": "slave", "value_from": null }
+              ]
+            },
+            "solr-prometheus-exporter": {
+              "image": "registry.kci.rocks/hybris/solr/solr-2205:5a1693ea8c8d746e6093f30cd1b7a9e92bb452a4",
+              "env": null
+            }
+          },
+          "kibana_url": "kib-review.k8stest.kci.rocks"
+        },
+        "steel2-etl-665bbc9766-tmlpx": {
+          "namespace": "review-ec-4014-pe-p29665",
+          "phase": "Running",
+          "containers": {
+            "global-data-sync-service-init": {
+              "image": "registry.kci.rocks/build_images/wget-mirror:latest",
+              "env": [
+                {
+                  "name": "SOURCE_HOST",
+                  "value": "http://kci-global-data-sync-proxy.review-general",
+                  "value_from": null
+                },
+                { "name": "NO_SYNC", "value": "true", "value_from": null }
+              ]
+            },
+            "global-data-sync-service": {
+              "image": "registry.kci.rocks/build_images/wget-mirror:latest",
+              "env": [
+                {
+                  "name": "SOURCE_HOST",
+                  "value": "http://kci-global-data-sync-proxy.review-general",
+                  "value_from": null
+                }
+              ]
+            },
+            "importer": {
+              "image": "registry.kci.rocks/hybris/steel2_etl:b05d4ee05d31075d2361d3e55d5924f43e607063",
+              "env": [
+                {
+                  "name": "HYBRIS_USER_FILE",
+                  "value": "/run/secrets/hybris/HYBRIS_USER",
+                  "value_from": null
+                },
+                {
+                  "name": "HYBRIS_PASSWORD_FILE",
+                  "value": "/run/secrets/hybris/HYBRIS_PASSWORD",
+                  "value_from": null
+                },
+                {
+                  "name": "HYBRIS_HOST",
+                  "value": "https://hybris-review-ec-4014-pe-p29665.kwsus.kci.rocks",
+                  "value_from": null
+                },
+                {
+                  "name": "DIRECT2_DATA_PATH",
+                  "value": "/files/direct2/v1/production",
+                  "value_from": null
+                },
+                {
+                  "name": "CURRENT_ENV",
+                  "value": "review-ec-4014-pe-p29665",
+                  "value_from": null
+                },
+                {
+                  "name": "SENTRY_DSN",
+                  "value": null,
+                  "value_from": {
+                    "config_map_key_ref": {
+                      "key": "dsn-legacy",
+                      "name": "steel2-etl-sentry-dsn",
+                      "optional": null
+                    },
+                    "field_ref": null,
+                    "resource_field_ref": null,
+                    "secret_key_ref": null
+                  }
+                }
+              ]
+            },
+            "exporter": {
+              "image": "registry.kci.rocks/hybris/steel2_etl:b05d4ee05d31075d2361d3e55d5924f43e607063",
+              "env": [
+                {
+                  "name": "PRODUCTION_SERVERS_FILE",
+                  "value": "/run/secrets/hybris/PRODUCTION_SERVERS",
+                  "value_from": null
+                },
+                {
+                  "name": "TEST_SERVERS_FILE",
+                  "value": "/run/secrets/hybris/TEST_SERVERS",
+                  "value_from": null
+                },
+                {
+                  "name": "CURRENT_ENV",
+                  "value": "review-ec-4014-pe-p29665",
+                  "value_from": null
+                },
+                {
+                  "name": "SENTRY_DSN",
+                  "value": null,
+                  "value_from": {
+                    "config_map_key_ref": {
+                      "key": "dsn-legacy",
+                      "name": "steel2-etl-sentry-dsn",
+                      "optional": null
+                    },
+                    "field_ref": null,
+                    "resource_field_ref": null,
+                    "secret_key_ref": null
+                  }
+                },
+                {
+                  "name": "XML_UPLOAD_DIRECTORY",
+                  "value": "inbound_xml",
+                  "value_from": null
+                },
+                {
+                  "name": "PRODUCTION_SFTP_KEY_FILE",
+                  "value": "/run/secrets/hybris/PRODUCTION_SFTP_KEY",
+                  "value_from": null
+                },
+                {
+                  "name": "TEST_SFTP_KEY_FILE",
+                  "value": "sftp-server/ssh-keys/private_rsa_key",
+                  "value_from": null
+                }
+              ]
+            }
+          },
+          "kibana_url": "kib-review.k8stest.kci.rocks"
+        },
+        "steel2-etl-ftp-server-file-browser-9db75544b-q968b": {
+          "namespace": "review-ec-4014-pe-p29665",
+          "phase": "Running",
+          "containers": {
+            "init-steel2-etl": { "image": "busybox:latest", "env": null },
+            "steel2-etl-ftp": {
+              "image": "registry.kci.rocks/hybris/steel2_etl/sftp-server:b05d4ee05d31075d2361d3e55d5924f43e607063",
+              "env": null
+            },
+            "steel2-etl-nginx-filebrowser": {
+              "image": "registry.kci.rocks/hybris/steel2_etl/nginx-filebrowser:b05d4ee05d31075d2361d3e55d5924f43e607063",
+              "env": null
+            }
+          },
+          "kibana_url": "kib-review.k8stest.kci.rocks"
+        }
+      }
+    }
+  ]
+}
