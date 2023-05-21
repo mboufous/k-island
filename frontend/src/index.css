@@ -1,3 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  html {
+    @apply scroll-smooth box-border;
+  }
+
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+
+  body {
+    @apply overscroll-none leading-normal;
+  }
+}
+
+.card {
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 1px -1px,
+    rgba(0, 0, 0, 0.14) 0px 1px 1px 0px, rgba(0, 0, 0, 0.12) 0px 1px 3px 0px;
+}
+
+.badge {
+  @apply flex items-center justify-center rounded-md px-3 py-0.5 m-1;
+}
+
+.error-page {
+  @apply flex flex-col items-center justify-center w-screen h-screen;
+}
+
+.error-page h1 {
+  @apply text-4xl font-bold mb-4;
+}
+[data-placeholder]::after {
+  content: ' ';
+  box-shadow: 0 0 50px 9px rgba(254, 254, 254);
+  position: absolute;
+  top: 0;
+  left: -100%;
+  height: 100%;
+  animation: load 1s infinite;
+}
+@keyframes load {
+  0% {
+    left: -100%;
+  }
+  100% {
+    left: 150%;
+  }
+}

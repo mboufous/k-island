@@ -6,6 +6,8 @@
       "DOM.Iterable",
       "ESNext"
     ],
+    "baseUrl": "/src",
+    "checkJs": true,
     "module": "ESNext",
     "skipLibCheck": true,
     /* Bundler mode */
@@ -23,8 +25,11 @@
   },
   "include": [
     "src",
-    "src/components/namespace/NamespaceList.tsx",
-    "src/lib/types.tsx"
+    "src/**/*",
+  ],
+  "exclude": [
+    "node_modules",
+    "**/node_modules/*"
   ],
   "references": [
     {
